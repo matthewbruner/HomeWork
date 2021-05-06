@@ -2,6 +2,7 @@
     Footer
 ============= */
 footer{
+    background-color: $night-dark;
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". footer .";
@@ -29,17 +30,55 @@ footer{
             @include md{
                 grid-area: f1;
             }
+            h1{
+                color: $alpine-frost;
+            }
+
+           section{
+               h2{
+                color: $alpine-frost;
+               }
+               address{
+                color: $alpine-frost-dark;
+               }
+           }
+
+           section{
+               h2{
+                color: $alpine-frost;
+               }
+               Massachusetts{
+                color: $alpine-frost-dark;
+               }
+           }
+           section{
+            h2{
+             color: $alpine-frost;
+            }
+            nova{
+             color: $alpine-frost-dark;
+            }
+        }
         }
 
         #f2{
             @include md{
                 grid-area: f2;
             }
+            h1{
+                color: $alpine-frost;
+            }
+            input{
+                color: $night-dark;
+            }
         }
 
         #f3{
             @include md{
                 grid-area: f3;
+            }
+            h1{
+                color: $alpine-frost;
             }
         }
     }

@@ -5,6 +5,27 @@
     img{
         width: 100%;
     }
+    section{
+            background-color: $electric-glow-dark;
+
+        h2{
+            color: $night-dark;
+        }
+        p{
+            color: $night-dark;
+        }
+    }
+    
+    section{
+            background-color: $electric-glow;
+        p{
+            color: $night-dark;
+        }
+        h5{
+            color: $night-dark;
+        }
+    }
+
 
     section{
         @include md{

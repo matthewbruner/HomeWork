@@ -1,6 +1,4 @@
-/* =============
-    New
-============= */
+
 #new{
 
     @include md{
@@ -20,7 +18,7 @@
         }
 
         h1{
-
+            color: $stone-silver;
         }
 
         ul{
@@ -61,11 +59,29 @@
                 @include md{
                     grid-area: n1;
                 }
+                background-color: $bright-star-light;
+                div{
+                    h1{
+                        color: $black;
+                    }
+                    p{
+                        color: $black;
+                    }
+                }
             }
 
             #n2{
                 @include md{
                     grid-area: n2;
+                }
+                background-color: $bright-star-light;
+                div{
+                    h1{
+                        color: $black;
+                    }
+                    p{
+                        color: $black;
+                    }
                 }
             }
 
@@ -73,17 +89,44 @@
                 @include md{
                     grid-area: n3;
                 }
+                background-color: $bright-star-light;
+                div{
+                    h1{
+                        color: $black;
+                    }
+                    p{
+                        color: $black;
+                    }
+                }
             }
 
             #n4{
                 @include md{
                     grid-area: n4;
                 }
+                background-color: $bright-star-light;
+                div{
+                    h1{
+                        color: $black;
+                    }
+                    p{
+                        color: $black;
+                    }
+                }
             }
 
             #n5{
                 @include md{
                     grid-area: n5;
+                }
+                background-color: $bright-star-light;
+                div{
+                    h1{
+                        color: $black;
+                    }
+                    p{
+                        color: $black;
+                    }
                 }
             }
         }
